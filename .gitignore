@@ -18,3 +18,5 @@
 /kee-zuul-getway/target/classes/com/kee/getway/main/*.class
 /kee-zuul-getway/target/classes/com/kee/getway/main/filter/*.class
 /*.iml
+*.yml
+*.iml
