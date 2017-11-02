@@ -12,3 +12,7 @@ eureka:
       defaultZone: http://root:root@127.0.0.1:6868/eureka/ # 服务注册需要 用户名密码
   instance:
     prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+
+management:
+  security:
+    enabled: false #是否开启actuator安全认证
